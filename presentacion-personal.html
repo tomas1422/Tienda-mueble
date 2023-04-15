@@ -12,23 +12,42 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="CSS/app.css" />
+    <link rel="stylesheet" href="./CSS/app.css" />
   </head>
   <body>
     <header class="nombre-sitio">
       <h1>Tienda <span>Muebles</span></h1>
+      <div class="contenedor-navegacion">
+        <nav class="nav-principal contenedor">
+          <a href="index.html">Inicio</a>
+          <a href="nosotros.html">Nosotros</a>
+          <a href="tienda.html">Tienda</a>
+          <a href="presentacion-personal.html">Presentacion</a>
+          <a href="galeria.html">Galeria</a>
+          <a href="contacto.html">Contacto</a>
+        </nav>
+      </div>
     </header>
 
-    <div class="contenedor-navegacion">
-      <nav class="nav-principal contenedor">
-        <a href="index.html">Inicio</a>
-        <a href="nosotros.html">Nosotros</a>
-        <a href="tienda.html">Tienda</a>
-        <a href="presentacion-personal.html">Presentacion</a>
-        <a href="galeria.html">Galeria</a>
-        <a href="contacto.html">Contacto</a>
-      </nav>
-    </div>
+    <main>
+      <section class="sectionPresentacion">
+        <div class="contenedorPresentacion" id="contenedorPresentacion"></div>
+      </section>
+
+      <section class="cardPersonal">
+        <div class="cardSVG">
+          <img src="./Images/arquero.svg" alt="un arquero con balon" />
+        </div>
+
+        <div class="cardSVG">
+          <img src="./Images/futbol.svg" alt="un jugador con pelota" />
+        </div>
+
+        <div class="cardSVG">
+          <img src="./Images/hinchada.svg" alt="hinchada de un equipo" />
+        </div>
+      </section>
+    </main>
 
     <footer class="site-footer">
       <div class="grid-footer contenedor">
@@ -65,7 +84,22 @@
           </nav>
         </div>
       </div>
+      <div class="redes-footer">
+        <a class="hiper" href=""
+          ><i class="bi bi-instagram icon-redes-footer"></i
+        ></a>
+        <a class="hiper" href=""
+          ><i class="bi bi-facebook icon-redes-footer"></i
+        ></a>
+        <a class="hiper" href=""
+          ><i class="bi bi-youtube icon-redes-footer"></i
+        ></a>
+        <a class="hiper" href=""
+          ><i class="bi bi-whatsapp icon-redes-footer"></i
+        ></a>
+      </div>
       <p class="copyright">Todos los derechos Reservados, Tienda Mueble</p>
     </footer>
+    <script src="./js/script.js"></script>
   </body>
 </html>

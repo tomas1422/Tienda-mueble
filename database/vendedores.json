@@ -1,0 +1,21 @@
+[
+    {
+        "name": "Tomas",
+        "lastName":"Gomez",
+        "years": 24,
+        "work":"Gerente de Ventas",
+        "section":"Inmuebles",
+        "url":"./Images/tomas-fut.jpg"
+        
+    },
+
+    {
+        "name": "Lautaro",
+        "lastName": "Rossi",
+        "years": 23,
+        "work":"Gerente de Adm.",
+        "section":"Inmuebles",
+        "url":"./Images/lautaro-fut.jpg"
+        
+    }
+]
